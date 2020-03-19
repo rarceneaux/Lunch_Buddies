@@ -10,12 +10,18 @@ namespace LunchBuddies
 
         public string LastName { get; set; }
         public string Location { get; set; }
-        public LunchBuddy(string firstName, string lastName )
+
+       
+
+        public LunchBuddy(string firstName, string lastName)
         {
             FirstName = firstName;
-            LastName = LastName;
+            LastName = lastName;
         }
 
-
+        public void Eat()
+        {
+            Console.WriteLine();
+        }
     }
 }

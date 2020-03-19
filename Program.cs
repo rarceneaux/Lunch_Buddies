@@ -7,7 +7,7 @@ namespace LunchBuddies
         static void Main(string[] args)
         {
             var lunchBuddy = new LunchBuddy("Randy", "Watson");
-            Console.WriteLine(lunchBuddy);
+            var resturant = new Resturant();
         }
     }
 }
